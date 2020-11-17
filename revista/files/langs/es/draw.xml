@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang id="en">
+	<langstring name="LNG_DRAWING" label="Toggle drawing tools">Alternar herramientas de dibujo</langstring>
+	<langstring name="LNG_DRAWING_PEN_THICKNESS" label="Line thickness">grosor de línea</langstring>
+	<langstring name="LNG_DRAWING_PEN_ALPHA" label="Opacity">Opacidad</langstring>
+	<langstring name="LNG_DRAWING_PEN_DYNAMICS" label="Dynamic line thickness">Grosor de linea dinamica</langstring>
+	<langstring name="LNG_DRAWING_PEN_COLOR" label="Color">Color</langstring>
+	<langstring name="LNG_DRAWING_CLEAR" label="Clear drawing tip">Clear current pages. To remove a single line, hold the ALT-key and click it.</langstring>
+	<langstring name="LNG_DRAWING_SAVE" label="Save changes">Guardar</langstring>
+	<langstring name="LNG_DRAWING_CLOSE" label="Close">Cerrar</langstring>
+</lang>

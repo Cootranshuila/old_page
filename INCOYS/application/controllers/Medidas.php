@@ -1,0 +1,517 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+use Box\Spout\Reader\ReaderFactory;
+use Box\Spout\Common\Type;
+
+class Medidas extends CI_Controller {
+
+  function __construct()
+  {
+    parent::__construct ();
+    $this->load->helper('url');
+    $this->load->library('session');
+    $this->load->model('model_medidas');
+    $this->load->model('model_usuario');
+    $this->load->model('model_tanque');
+    $this->load->model('model_aforo');
+    $this->load->library('form_validation');
+    $this->load->helper('mysql_to_excel_helper');
+    $this->load->library('pdf');
+    //$this->load->library('Html');
+  }
+
+  public function form()
+  {
+    $this->very_session();
+    $this->load->view('component/header.php');
+    //
+    $data['info'] = $this->model_usuario->load();
+    $data['tanque'] = $this->model_tanque->load();
+    $this->load->view('reporte/index',$data);
+    $this->load->view('component/footers.php');
+  }
+
+  function very_session()
+  {
+    if (!$this->session->userdata('logged')==TRUE)
+    {
+      header("Location:".base_url());
+    }
+  }
+
+  public function search()
+  {
+    $this->very_session();
+
+    $hora1 = $this->input->post('hora1');
+    $hora2 = $this->input->post('hora2');
+    $fecha1 = date('Y-m-d', strtotime($this->input->post('date1')));
+    $fecha2 = date('Y-m-d', strtotime($this->input->post('date2')));
+
+    $param['campo1'] = "$fecha1 $hora1";
+    $param['campo2'] = "$fecha2 $hora2";
+    $param['tanque'] = $this->input->post('tanque');
+    
+    $query = $this->model_medidas->consult($param);
+
+    //echo $query['cantidad'];
+
+    if ($this->input->post('reporte')==1||$this->input->post('reporte')==2)
+    {
+        $data['data'] = $query['query'];
+        $data['cantidad'] = $query['cantidad'];
+
+        $this->load->view('component/header.php');
+        //
+        if ($this->input->post('reporte')==1) 
+        {
+          $this->load->view('reporte/graphic',$data);
+        }
+        else
+        {
+          $this->load->view('reporte/datable',$data);
+        }
+
+        $this->load->view('component/footer.php');
+      }
+      elseif ($this->input->post('reporte')==3)
+      {
+        $waka['fields'][0] = array('name' =>'Hora' );
+        $waka['fields'][1] = array('name' =>'Combustible' );
+        $waka['fields'][2] = array('name' =>'Agua' );
+        //$waka['fields'][3] = array('name' =>'Temperatura' );
+        $waka['fields'][4] = array('name' =>'Presion' );
+        //$waka['fields'][5] = array('name' =>'Filtro' );
+
+        $headers = '';
+        $filarow = '';
+
+        foreach ($waka['fields'] as $field) {
+           $headers .= $field['name'] .",";
+        }
+
+        if ($query['cantidad']==0) {
+          echo "<script>alert('No hay datos.'); history.back(0)</script>";
+        }
+        else {
+
+          foreach ($query['query'] as $value) {
+             $row = '';
+             $row .= $value['fecha']  .",";
+             $row .= $value['combustible']  .",";
+             $row .= $value['agua']   .",";
+             //$row .= $value->med_temperatura  ."\t";
+             $row .= $value['presion']   .",";
+             //$row .= $value->med_filtro  ."\t";
+             $filarow .= trim($row)."\n";
+          }
+
+          $filarow = str_replace("\r","",$filarow);
+
+          //echo json_encode($filarow);
+     
+          header("Content-type: application/x-msdownload");
+          header("Content-Disposition: attachment; filename=Reporte de Tanque ".$param['tanque']." y Fecha ".$fecha1.".xls");
+          echo mb_convert_encoding("$headers\n$filarow",'utf-16','utf-8');
+          
+        }
+      }
+      elseif ($this->input->post('reporte')==4) {
+
+        $pdf = new Pdf();
+        $this->pdf->AddPage('P','Letter');
+        //$this->pdf->AddPage();
+        $this->pdf->SetTitle("TICKET");
+        $this->pdf->SetLeftMargin(4);
+        $this->pdf->SetRightMargin(4);
+        //$this->pdf->SetFillColor(200,200,200);
+        //$pdf->SetAutoPageBreak(true);
+        // Se define el formato de fuente: Arial, negritas, tamaño 9
+        $this->pdf->SetFont('Arial', '', 14);
+
+        $this->pdf->Cell(25,06,'',0,0);
+        $this->pdf->Cell(25,06,'Reporte de Tanque '.$param['tanque'].' y Fecha '.$fecha1,0,1);
+        $this->pdf->Cell(25,06,'',0,1);
+
+        $this->pdf->Cell(10,06,'',0,0);
+        $this->pdf->Cell(50,06,'Fecha y Hora',1,0);
+        $this->pdf->Cell(35,06,'Combustible',1,0);
+        $this->pdf->Cell(25,06,'Agua',1,0);
+        //$this->pdf->Cell(35,06,'Temperatura',1,0);
+        $this->pdf->Cell(35,06,utf8_decode('Presión'),1,1);
+        //$this->pdf->Cell(25,06,'Filtro',1,1);
+
+        $data =  $this->model_medidas->get();
+
+        foreach ($data['query'] as $value) {
+
+          $this->pdf->Cell(10,05,'',0,0);
+          $this->pdf->Cell(50,05,$value->med_fecha_hora,1,0);
+          $this->pdf->Cell(35,05,$value->med_nivel_combustible,1,0);
+          $this->pdf->Cell(25,05,$value->med_nivel_agua,1,0);
+          //$this->pdf->Cell(35,05,$value->med_temperatura,1,0);
+          $this->pdf->Cell(35,05,$value->med_presion,1,1);
+          //$this->pdf->Cell(25,05,$value->med_filtro,1,1);
+
+        }
+        $this->pdf->output('Reporte de Tanque '.$param['tanque'].' y Fecha '.$fecha1.'pdf', 'I');
+
+      }
+      else
+      {
+        echo "Error myt error";
+      }
+  }
+
+  public function search_susp2()
+  {
+    $this->very_session();
+    //echo "Buscando...";
+
+    if ($this->input->post('date1')&&$this->input->post('hora1')&&$this->input->post('hora2')==null) {
+      echo "<script>alert('Error... Seleccione la segunda Hora.'); history.back();</script>";
+    }
+    elseif ($this->input->post('date1')==$this->input->post('date2')) {
+      echo "<script>alert('Error... Seleccione la fecha diferente.'); history.back();</script>";
+    }
+    elseif ($this->input->post('date2')&&$this->input->post('hora2')==null) {
+      echo "<script>alert('Error... Seleccione la segunda Hora.'); history.back();</script>";
+    }
+    elseif ($this->input->post('date2')&&$this->input->post('hora2'))
+    {
+      $hora1 = date('H', strtotime($this->input->post('hora1')));
+      $hora2 = date('H', strtotime($this->input->post('hora2')));
+      $resta = 24-$hora1;
+      $calculado = $resta+$hora2;
+
+      if ($calculado>=25)
+      {
+        echo "<script>alert('Error... Maximo 24 Horas.'); history.back();</script>";
+      }
+    }
+
+    //comienza coger los campos para restar
+    if ($this->input->post('hora1')) {
+      $param['hora1'] = date('H:i:s', strtotime($this->input->post('hora1')));
+    }
+    if ($this->input->post('hora2')) {
+      $param['hora2'] = date('H:i:s', strtotime($this->input->post('hora2')));
+    }
+    $param['fecha'] = date('Y-m-d',strtotime($this->input->post('date1')));
+    if ($this->input->post('date2')) {
+      $param['fecha2'] = date('Y-m-d',strtotime($this->input->post('date2')));
+    }
+    $param['tanque'] = $this->input->post('tanque');
+    $query = $this->model_medidas->consult($param);
+
+    $data['data'] = $query['query'];
+    $data['cantidad'] = $query['cantidad'];
+
+    $this->load->view('component/header.php');
+    //
+    if ($this->input->post('reporte')==1)
+    {
+      $this->load->view('reporte/graphic',$data);
+    }
+    else
+    {
+      $this->load->view('reporte/datable',$data);
+    }
+
+    $this->load->view('component/footer.php');
+  }
+
+  public function search_perfecto_filtro()
+  {
+    //echo "Buscando...";
+
+    if ($this->input->post('date1')&&$this->input->post('hora1')&&$this->input->post('hora2')==null) {
+      echo "<script>alert('Error... Seleccione la segunda Hora.'); history.back();</script>";
+    }
+    elseif ($this->input->post('date2')&&$this->input->post('hora2')==null) {
+      echo "<script>alert('Error... Seleccione la segunda Hora.'); history.back();</script>";
+    }
+    elseif ($this->input->post('date2')&&$this->input->post('hora2'))
+    {
+      $hora1 = date('H', strtotime($this->input->post('hora1')));
+      $hora2 = date('H', strtotime($this->input->post('hora2')));
+      $resta = 24-$hora1;
+      $calculado = $resta+$hora2;
+
+      if ($calculado>=25)
+      {
+        echo "<script>alert('Error... Maximo 24 Horas.'); history.back();</script>";
+      }
+    }
+    else
+    {
+      echo "string";
+    }
+
+    //comienza coger los campos para restar
+    if ($this->input->post('hora1')) {
+      $param['hora1'] = date('H:i:s', strtotime($this->input->post('hora1')));
+    }
+    if ($this->input->post('hora2')) {
+      $param['hora2'] = date('H:i:s', strtotime($this->input->post('hora2')));
+    }
+    $param['fecha'] = date('Y-m-d',strtotime($this->input->post('date1')));
+    if ($this->input->post('date2')) {
+      $param['fecha2'] = date('Y-m-d',strtotime($this->input->post('date2')));
+    }
+    $param['tanque'] = $this->input->post('tanque');
+    $data = $this->model_medidas->consult($param);
+
+    if ($data['query']==false) { echo "No hay Datos"; }
+    else
+    {
+      foreach ($data['query'] as $value)
+      {
+        //echo "1 ";
+        if ($param['fecha']==$value->med_fecha)
+        {
+          if ($param['hora1']<=$value->med_hora)
+          {
+              echo "Fecha 1 - $value->med_hora - Fecha: $value->med_fecha <br>";
+          }
+          else {
+            //echo "No<br>";
+          }
+        }
+        else{
+          if ($value->med_hora<=$param['hora2'])
+          {
+              echo " Fecha 2 - $value->med_hora - Fecha: $value->med_fecha <br>";
+          }
+          else {
+            //echo "No ".$param['hora2']." <= $value->med_hora <br>";
+          }
+
+        }
+        //echo "$value->med_Id $value->med_hora - Fecha: $value->med_fecha <br>";
+      }
+    }
+  }
+
+  public function prueba()
+  {
+    $prueba[0]['combustible']="hola";
+    $prueba[1]['combustible']="pollo";
+    echo json_encode($prueba);
+  }
+
+  public function search_susp()
+  {
+    $this->form_validation->set_rules('date1', 'Fecha', 'required');
+    //$this->form_validation->set_rules('hora1', 'Hora inicio', 'required');
+    //$this->form_validation->set_rules('hora2', 'Hora final', 'required');
+
+    if ($this->form_validation->run() == FALSE)
+    {
+      $this->form();
+    }
+    else
+    {
+
+      if ($this->input->post('hora1')) {
+        $param['hora1'] = date('H:i:s', strtotime($this->input->post('hora1')));
+      }
+      if ($this->input->post('hora2')) {
+        $param['hora2'] = date('H:i:s', strtotime($this->input->post('hora2')));
+      }
+      $param['fecha'] = date('Y-m-d',strtotime($this->input->post('date1')));
+      if ($this->input->post('date2')) {
+        $param['fecha2'] = date('Y-m-d',strtotime($this->input->post('date2')));
+      }
+      $param['tanque'] = $this->input->post('tanque');
+      $query = $this->model_medidas->consult($param);
+
+      if ($this->input->post('reporte')==1||$this->input->post('reporte')==2)
+      {
+        $data['data'] = $query['query'];
+        $data['cantidad'] = $query['cantidad'];
+
+        $this->load->view('component/header.php');
+        //
+        if ($this->input->post('reporte')==1) {
+          $this->load->view('reporte/graphic',$data);
+        }
+        else
+        {
+          $this->load->view('reporte/datable',$data);
+        }
+
+        $this->load->view('component/footer.php');
+      }
+      elseif ($this->input->post('reporte')==3)
+      {
+        $waka['fields'][0] = array('name' =>'Hora' );
+        $waka['fields'][1] = array('name' =>'Combustible' );
+        $waka['fields'][2] = array('name' =>'Agua' );
+        //$waka['fields'][3] = array('name' =>'Temperatura' );
+        $waka['fields'][4] = array('name' =>'Presion' );
+        //$waka['fields'][5] = array('name' =>'Filtro' );
+
+        $headers = '';
+        $filarow = '';
+
+        foreach ($waka['fields'] as $field) {
+           $headers .= $field['name'] ."\t";
+        }
+
+        if ($query['cantidad']==0) {
+          echo "<script>alert('No hay datos.'); history.back(0)</script>";
+        }
+        else {
+          foreach ($query['query'] as $value) {
+             $row = '';
+             $row .= $value->med_hora  ."\t";
+             $row .= $value->med_nivel_combustible  ."\t";
+             $row .= $value->med_nivel_agua  ."\t";
+             //$row .= $value->med_temperatura  ."\t";
+             $row .= $value->med_presion  ."\t";
+             //$row .= $value->med_filtro  ."\t";
+             $filarow .= trim($row)."\n";
+          }
+
+          $filarow = str_replace("\r","",$filarow);
+
+          header("Content-type: application/x-msdownload");
+          header("Content-Disposition: attachment; filename=Reporte de Tanque ".$param['tanque']." y Fecha ".$param['fecha'].".xls");
+          echo mb_convert_encoding("$headers\n$filarow",'utf-16','utf-8');
+        }
+
+      }
+      elseif ($this->input->post('reporte')==4) {
+
+        $pdf = new Pdf();
+        $this->pdf->AddPage('P','Letter');
+        //$this->pdf->AddPage();
+        $this->pdf->SetTitle("TICKET");
+        $this->pdf->SetLeftMargin(4);
+        $this->pdf->SetRightMargin(4);
+        //$this->pdf->SetFillColor(200,200,200);
+        //$pdf->SetAutoPageBreak(true);
+        // Se define el formato de fuente: Arial, negritas, tamaño 9
+        $this->pdf->SetFont('Arial', '', 14);
+
+        $this->pdf->Cell(25,06,'',0,0);
+        $this->pdf->Cell(25,06,'Reporte de Tanque '.$param['tanque'].' y Fecha '.$param['fecha'],0,1);
+        $this->pdf->Cell(25,06,'',0,1);
+
+        $this->pdf->Cell(10,06,'',0,0);
+        $this->pdf->Cell(25,06,'Hora',1,0);
+        $this->pdf->Cell(35,06,'Combustible',1,0);
+        $this->pdf->Cell(25,06,'Agua',1,0);
+        //$this->pdf->Cell(35,06,'Temperatura',1,0);
+        $this->pdf->Cell(35,06,utf8_decode('Presión'),1,0);
+        //$this->pdf->Cell(25,06,'Filtro',1,1);
+
+        $data =  $this->model_medidas->get();
+
+        foreach ($data['query'] as $value) {
+
+          $this->pdf->Cell(10,05,'',0,0);
+          $this->pdf->Cell(25,05,$value->med_hora,1,0);
+          $this->pdf->Cell(35,05,$value->med_nivel_combustible,1,0);
+          $this->pdf->Cell(25,05,$value->med_nivel_agua,1,0);
+          //$this->pdf->Cell(35,05,$value->med_temperatura,1,0);
+          $this->pdf->Cell(35,05,$value->med_presion,1,0);
+          //$this->pdf->Cell(25,05,$value->med_filtro,1,1);
+
+        }
+        $this->pdf->output('Reporte de Tanque '.$param['tanque'].' y Fecha '.$param['fecha'].'pdf', 'I');
+
+      }
+      else
+      {
+        echo "Error myt error";
+      }
+    }
+  }
+
+  public function pdf()
+  {
+      $pdf = new Pdf();
+      $this->pdf->AddPage('P','Letter');
+      //$this->pdf->AddPage();
+      $this->pdf->SetTitle("TICKET");
+      $this->pdf->SetLeftMargin(4);
+      $this->pdf->SetRightMargin(4);
+      //$this->pdf->SetFillColor(200,200,200);
+      //$pdf->SetAutoPageBreak(true);
+      // Se define el formato de fuente: Arial, negritas, tamaño 9
+      $this->pdf->SetFont('Arial', '', 14);
+
+      $this->pdf->Cell(25,06,'',0,0);
+      $this->pdf->Cell(25,06,'Reporte de Fecha = 27-08-2014',0,1);
+      $this->pdf->Cell(25,06,'',0,1);
+
+      $this->pdf->Cell(25,06,'',0,0);
+      $this->pdf->Cell(25,06,'Hora',1,0);
+      $this->pdf->Cell(35,06,'Combustible',1,0);
+      $this->pdf->Cell(25,06,'Agua',1,0);
+      $this->pdf->Cell(35,06,'Temperatura',1,0);
+      $this->pdf->Cell(25,06,utf8_decode('Presión'),1,1);
+
+      $data =  $this->model_medidas->get();
+
+      foreach ($data['query'] as $value) {
+
+        $this->pdf->Cell(25,05,'',0,0);
+        $this->pdf->Cell(25,05,$value->med_hora,1,0);
+        $this->pdf->Cell(35,05,$value->med_nivel_combustible,1,0);
+        $this->pdf->Cell(25,05,$value->med_nivel_agua,1,0);
+        $this->pdf->Cell(35,05,$value->med_temperatura,1,0);
+        $this->pdf->Cell(25,05,$value->med_presion,1,1);
+
+      }
+
+
+      $this->pdf->output("reporte.pdf", 'I');
+  }
+
+  public function search_backup()
+  {
+    $this->form_validation->set_rules('date1', 'Fecha', 'required');
+    $this->form_validation->set_rules('hora1', 'Hora inicio', 'required');
+    $this->form_validation->set_rules('hora2', 'Hora final', 'required');
+
+    if ($this->form_validation->run() == FALSE)
+    {
+      $this->form();
+    }
+    else
+    {
+
+      $param['hora1'] = date('H:i:s', strtotime($this->input->post('hora1')));
+      $param['hora2'] = date('H:i:s', strtotime($this->input->post('hora2')));
+      $param['fecha'] = date('Y-m-d',strtotime($this->input->post('date1')));
+
+      $query = $this->model_medidas->consult($param);
+      $data['data'] = $query['data'];
+      $data['cantidad'] = $query['cantidad'];
+
+      $this->load->view('component/header.php');
+      //
+      $this->load->view('reporte/graphic',$data);
+      $this->load->view('component/footer.php');
+
+    }
+  }
+
+  public function excel()
+	{
+		$data =  $this->model_medidas->get();
+    echo json_encode($data['fields']);
+		//to_excel($data, "archivoexcel");
+	}
+
+
+
+
+
+}
+
+?>

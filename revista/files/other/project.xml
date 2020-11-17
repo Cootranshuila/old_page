@@ -1,0 +1,860 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flipbookmaker version="4.3.2" IsQuick="false" QuickFile="" ProjectName="D:\Revista\REVISTA FINAL\REVISTA FINAL.fb" DefaultName="REVISTA FINAL" SearchOrder="ltr" Google="" UseMiniMode="false" UsePSW="false" MiniWidth="400" MiniHeight="300" PSW="" StartPage="0" UseFlipSound="true" UseBackSound="true" UseSingleSound="false" BackSoundPath="" IsRight2Left="false" IsFastene="false" IsHardCover="0" IsHardPage="0" IsAnimate="true" IsCenterBook="true" IsLandScape="0" IsOpenBook="1" DragArea="top,middle,bottom" FlipSpeed="0.3" PageThick="0.1" SpineColor="13421772" Curvature="-0.5" PageBackColor="13421772" PageTranColor="0" FoldLine="0.5" Loaded="22" ZoomStep="0.25, 0.5, 1, 2, 4, 8" UseReflection="false" RefTransparent="75" RefOffset="0" IsAutoPlay="false" IsRepeat="false" DurationPlay="6" Preloader="bookcase" LoadText="" PowerBy="" NavigationStyle="" ButtonStyle="" ShowCover="true" ShowPreNext="true" ShowPlayStop="false" ShowScreen="true" ShowToc="false" ShowZoom="true" ShowBookmark="false" ShowDownload="false" DownloadUrl="" ShowText="false" ShowSlider="false" ShowShare="true" ShowPrint="false" ShowZoomBar="true" ShowSearch="false" ShowSearchBox="false" ShowMusic="true" ShowThumbnail="false" ShowExit="true" ShowBookCase="false" ButtonScale="0" IntroMovie="" IntroEffect="" Scene="" ShowAbout="false" ShowDraw="false" ShowLang="true" UseGradient="true" Edge="1" EdgeColor="13421772" TemplateGroup="float" TemplateName="crystal" ExeTitle="" HtmlTitle="Cootranshuila" HtmlKeywords="" HtmlDescription="" HtmlScript="" PageWidth="637" PageHeight="800" CoverWidth="637" CoverHeight="800" Langs="en,es" LangHints="English,Spanish" BookLangs="en,es">
+  <book title="www.cootranshuila.com" plugins="navigationbar, keyboardnavigation, links, password, pdflinks, anchors, index, titles, search, gestures, draw, tuio, slideshow,javascript,swfaddress,print,thumbnails,bookmarks,select,musicplayers, toc, share, about, bookcase" pagewidth="637" pageheight="800" searchindex="files/search_index/en.txt" stiffskew="1" guipath="files/gui/" asulextension="xml" lang="en,es" langpath="files/langs/" flagpath="files/flags/" pluginpath="files/plugins/" priorities="vid(20); snd(15); area(5); nav(5); txt(5); gal(30)" sndpath="files/snd/" dragspeed="0.3" password="" pwstart="0" thumbloadtext="Loading" zoommaxscale="2" zoomminscale="0.1" zoomsnap="0.25, 0.5, 1, 2, 4, 8" zoomstep="" slidestart="false" slidedelay="6" sliderepeat="false" toc="files/data/toc.xml" bookcase="files/data/bookcase.xml" download="" minimode="false" miniwidth="400" miniheight="300" layout="files/data/layout.xml" buttoncfg="files/data/buttoncfg.xml" about="files/data/about.xml" abc="bedh">
+    <background>
+      <box name="" anchors="0,0,ph,pw"/>
+    </background>
+    <bookmarks>
+      <bookmark title="Untitled" page="0" color="10727053" content="Untitled"/>
+    </bookmarks>
+    <chapter pagewidth="637" pageheight="800" bgsound="files/data/sounds.xml">
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_1_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_2_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+    </chapter>
+    <chapter pagewidth="637" pageheight="800">
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_3_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_4_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_5_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_6_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_7_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_8_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_9_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_10_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_11_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_12_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_13_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_14_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_15_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_16_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_17_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_18_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_19_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_20_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_21_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_22_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_23_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_24_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_25_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_26_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_27_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_28_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_29_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_30_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_31_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_32_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_33_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_34_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_35_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_36_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_37_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_38_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_39_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_40_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_41_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_42_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_43_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_44_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_45_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_46_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_47_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_48_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_49_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_50_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_51_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_52_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_53_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_54_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_55_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_56_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_57_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_58_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_59_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_60_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_61_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_62_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+    </chapter>
+    <chapter pagewidth="637" pageheight="800">
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_63_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+      <page stiffskew="1">
+        <img width="637" height="800" widthorg="609" heightorg="765" position="center middle" alpha="1" rotation="0" caption="" event="0" mask="" filetype="1" id="" ytparam="autoplay=0&amp;loop=0">
+          <action actionid="0" gui="" widthpop="400" heightpop="300" galxml="">
+            <wincontents>
+              <![CDATA[]]>
+            </wincontents>
+          </action>
+          <effmenter Param1="" Param2=""/>
+          <effenter value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <effleave value="" funname="" delay="0" loop="0" rollback="false" loopdelay="0" speed="0" stagger="0"/>
+          <src lang="en">C:\Users\CAMIB_~1\AppData\Local\Temp\flipbook_{DA360CA2-A2DA-43C0-8BFE-E1A5674170B2}\files\pages\en\high\REVISTA FINAL_64_{E5969B06-722A-499C-B47C-AB1403F48C89}_en.swf</src>
+        </img>
+      </page>
+    </chapter>
+  </book>
+  <MyFont Name="Comic Sans MS" Color="32768" Size="16" Style="1" Text="www.cootranshuila.com" Url="http://www.cootranshuila.com"/>
+  <Backgd UseBackImg="true" BackColor1="0" BackColor2="10066329" ColorStyle="radial" ImagePath="files/elements/bg.png" ImageStyle="Tile" TransParent="10" AType="0"/>
+  <Logo Name="" Color="0" Size="0" Style="0" Text="" Url="" UseLogo="false" UseImage="false" ImagePath="" ImageTrans="0" BackColor="0" Width="100" Height="100" Target="_blank"/>
+  <FontObj Name="" Color="0" Size="0" Style="0"/>
+  <Bookmarks>
+    <bookmark title="Untitled" page="0" color="10727053" content="Untitled"/>
+  </Bookmarks>
+  <Playlist skin="" miniskin="" startmini="false" onlywhenactive="false" playmode="1" loopmode="1">
+    <music name="TEMA COOTRANSHUILA SOLO COROS" src="files/snd/bs0.mp3"/>
+  </Playlist>
+  <BookCase/>
+</flipbookmaker>

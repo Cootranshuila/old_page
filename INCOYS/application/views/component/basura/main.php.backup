@@ -1,0 +1,150 @@
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+      <h1>
+        Dashboard
+        <small>Control panel</small>
+      </h1>
+      <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li class="active">Dashboard</li>
+      </ol>
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+      <!-- Small boxes (Stat box) -->
+      <div class="row">
+
+        <?php  foreach ($codegas as $value) {
+
+          $temperatura = $value->med_temperatura;
+          $combustible = $value->med_nivel_combustible;
+          $agua = $value->med_nivel_agua;
+          $presion = $value->med_presion;
+          $bate1 = $value->med_nivel_bat1;
+          $bate2 = $value->med_nivel_bat2;
+          $filtro = $value->med_filtro;
+
+        } ?>
+        <div class="col-lg-3 col-xs-6">
+          <!-- small box -->
+          <div style="background-color:#3c8dbc;" class="small-box">
+            <div class="inner">
+              <h3 style="color:white;"><?php echo $combustible; ?></h3>
+
+              <h4 style="color:white;">Combustible</h4>
+            </div>
+            <div class="icon">
+              <i class="ion ion-md-speedometer" style="color:white;"></i>
+            </div>
+            <a href="#" class="small-box-footer"> <i class="ion ion-ios-checkmark-circle"></i></a>
+          </div>
+        </div>
+        <!-- ./col -->
+        <div class="col-lg-3 col-xs-6">
+          <!-- small box -->
+          <div class="small-box bg-orange">
+            <div class="inner">
+              <h3><?php echo $temperatura; ?><sup style="font-size: 20px">o</sup></h3>
+
+              <h4>Temperatura</h4>
+            </div>
+            <div class="icon">
+              <i class="ion ion-md-thermometer"></i>
+            </div>
+            <a href="#" class="small-box-footer"> <i class="ion ion-ios-checkmark-circle"></i></a>
+          </div>
+        </div>
+
+        <!-- ./col -->
+        <div class="col-lg-3 col-xs-6">
+          <!-- small box -->
+          <div class="small-box bg-aqua">
+            <div class="inner">
+              <h3 ><?php echo $agua; ?></h3>
+
+              <h4>Agua</h4>
+            </div>
+            <div class="icon">
+              <i class="ion ion-ios-water"></i>
+            </div>
+            <a href="#" class="small-box-footer"> <i class="ion ion-ios-checkmark-circle"></i></a>
+          </div>
+        </div>
+
+        <!-- ./col -->
+        <div class="col-lg-3 col-xs-6">
+          <!-- small box -->
+          <div style="background-color:#009688;" class="small-box " >
+            <div class="inner">
+              <h3 style="color:white;"><?php echo $presion; ?></h3>
+
+              <h4 style="color:white;">Presión</h4>
+            </div>
+            <div class="icon">
+              <i class="ion ion-ios-analytics"></i>
+            </div>
+            <a href="#" class="small-box-footer"> <i class="ion ion-ios-checkmark-circle"></i></a>
+          </div>
+        </div>
+
+        <!-- ./col -->
+        <div class="col-lg-3 col-xs-6">
+          <!-- small box -->
+          <div style="background-color:#00d1ca;" class="small-box " >
+            <div class="inner">
+              <h3 style="color:white;"><?php echo $filtro; ?></h3>
+
+              <h4 style="color:white;">Filtro</h4>
+            </div>
+            <div class="icon">
+              <i class="ion ion-ios-funnel"></i>
+            </div>
+            <a href="#" class="small-box-footer"> <i class="ion ion-ios-checkmark-circle"></i></a>
+          </div>
+        </div>
+
+
+        <!-- ./col -->
+        <div class="col-lg-3 col-xs-6">
+          <!-- small box -->
+          <div style="background-color:#25de35;" class="small-box " >
+            <div class="inner">
+              <h3 style="color:white;"><?php echo $bate1; ?></h3>
+
+              <h4 style="color:white;">Batería 1</h4>
+            </div>
+            <div class="icon">
+              <i class="ion ion-md-battery-dead"></i>
+            </div>
+            <a href="#" class="small-box-footer"> <i class="ion ion-ios-checkmark-circle"></i></a>
+          </div>
+        </div>
+
+        <!-- ./col -->
+        <div class="col-lg-3 col-xs-6">
+          <!-- small box -->
+          <div style="background-color:#7CE700;" class="small-box " >
+            <div class="inner">
+              <h3 style="color:white;"><?php echo $bate2; ?></h3>
+
+              <h4 style="color:white;">Batería 2</h4>
+            </div>
+            <div class="icon">
+              <i class="ion ion-md-battery-dead"></i>
+            </div>
+            <a href="#" class="small-box-footer"> <i class="ion ion-ios-checkmark-circle"></i></a>
+          </div>
+        </div>
+
+      </div>
+      <!-- /.row -->
+
+
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->

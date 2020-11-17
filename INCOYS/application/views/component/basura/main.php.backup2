@@ -1,0 +1,70 @@
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+      <h1>
+        Dashboard
+        <small>Control panel</small>
+      </h1>
+      <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li class="active">Dashboard</li>
+      </ol>
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+      <!-- Small boxes (Stat box) -->
+      <div class="row">
+
+
+        <?php  foreach ($codegas as $value) {
+
+          $temperatura = $value->med_temperatura;
+          $combustible = $value->med_nivel_combustible;
+          $agua = $value->med_nivel_agua;
+          $presion = $value->med_presion;
+          $bate1 = $value->med_nivel_bat1;
+          $bate2 = $value->med_nivel_bat2;
+          $filtro = $value->med_filtro;
+
+        } ?>
+
+
+        <div class="col-md-6" style="background:white;padding:0px;margin:20px;">
+          <div class="col-md-12" style="background:#fbfbfb;text-align:center;">
+            <h2>FF01</h2>
+          </div>
+          <div class="col-md-6" >
+            <div class="therm-container" id="jqmeter-vertical"></div>
+          </div>
+          <div class="col-md-6"  style="background:white;font-size:20px;">
+
+            <br>
+            <dl class="dl-horizontal">
+              <dt>Combustible</dt>
+              <dd><i class="ion ion-ios-analytics"></i>  <?php echo $combustible; ?></dd>
+              <hr>
+              <dt>Agua</dt>
+              <dd><i class="ion ion-ios-water"></i>  <?php echo $agua; ?></dd>
+              <hr>
+              <dt>Temp </dt>
+              <dd> <i class="ion ion-md-thermometer"></i> <?php echo $temperatura; ?></dd>
+              <hr>
+              <dt>Voltaje</dt>
+              <dd><i class="ion ion-md-battery-dead"></i> 5v - 6v</dd>
+            </dl>
+          </div>
+
+        </div>
+
+
+      </div>
+      <!-- /.row -->
+
+
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->

@@ -1,0 +1,74 @@
+<aside class="main-sidebar">
+    <!-- sidebar: style can be found in sidebar.less -->
+    <section class="sidebar" style="height: auto;">
+      <!-- /.search form -->
+      <!-- sidebar menu: : style can be found in sidebar.less -->
+      <ul class="sidebar-menu">
+        <li class="header">MAIN NAVIGATION</li>
+        <li class="header"><img src="<?= base_url()?>image/logo-m.png" width="100%"></li>
+
+        <li class="treeview">
+          <?php $online = $this->model_pedidos->read_online(); ?>
+          <?php foreach($online as $onln): ?>
+            <?php if ($onln->td_online==1): ?>
+              <a href="#" id="call-online-state" data-state="0">
+                <i class="fa fa-circle-o text-green" ></i> <span>Online</span>
+                <span class="pull-right-container">
+                  <small class="label pull-right bg-green">Abierto</small>
+                </span>
+              </a>
+            <?php elseif ($onln->td_online==0): ?>
+              <a href="#" id="call-online-state" data-state="1">
+                <i class="fa fa-circle-o text-red" ></i> <span>Online</span>
+                <span class="pull-right-container">
+                  <small class="label pull-right bg-red">Cerrado</small>
+                </span>
+              </a>
+            <?php elseif ($onln->td_online==2): ?>
+              <a href="#" id="call-online-state" data-state="2">
+                <i class="fa fa-circle-o text-orange" ></i> <span>Online</span>
+                <span class="pull-right-container">
+                  <small class="label pull-right bg-yellow">Saturación</small>
+                </span>
+              </a>
+            <?php endif; ?>
+
+          <?php  endforeach;  ?>
+          <ul class="treeview-menu" style="display: none;">
+            <li><a href="#" class="call-online" data-state="1"><i class="fa fa-circle-o text-green"></i> Abierto </a></li>
+            <li><a href="#" class="call-online" data-state="0"><i class="fa fa-circle-o text-red"></i> Cerrado</a></li>
+            <li><a href="#" class="call-online" data-state="2"><i class="fa fa-circle-o text-yellow"></i> Saturación</a></li>
+          </ul>
+        </li>
+
+
+        <li><a href="<?= base_url('index.jsp')?>"><i class="ion ion-monitor"></i> <span>Principal</span></a></li>
+        <li><a href="<?= base_url('Pedidos/pending')?>"><i class="fa fa-shopping-bag"></i> <span>Pedidos</span></a></li>
+        <li><a href="<?= base_url('banners/index')?>"><i class="fa fa-align-justify "></i> <span>Banners</span></a></li>
+        <li><a href="<?= base_url('area')?>"><i class="fa fa-street-view "></i> <span>Area</span></a></li>
+        <li><a href="<?= base_url('Horario')?>"><i class="fa fa-clock-o"></i> <span>Horario</span></a></li>
+        <li class="treeview active">
+          <a href="#">
+            <i class="fa fa-edit"></i> <span>Carta virtual</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="<?= base_url('Productos/index')?>"><i class="fa fa-circle-o"></i> Comidas (Platos)</a></li>
+            <li class="active"><a href="<?= base_url('Categorias/index')?>"><i class="fa fa-circle-o"></i> Categorias</a></li>
+          </ul>
+        </li>
+
+        <li><a href="<?= base_url('Domiciliarios/index')?>"><i class="fa fa-motorcycle"></i> <span>Domiciliarios</span></a></li>
+        <li><a href="<?= base_url('Usuario/registros')?>"><i class="fa fa-user"></i> <span>Usuarios</span></a></li>
+        <li><a href="<?= base_url('Reportes/index')?>"><i class="fa fa-line-chart"></i> <span>Reportes</span></a></li>
+        <li><a href="<?= base_url('Factura/index')?>"><i class="fa fa-book"></i> <span>Facturación</span></a></li>
+        <li><a href="<?= base_url('Controller_cupones/index')?>"><i class="fa fa-tags"></i> <span>Cupones</span></a></li>
+        <li><a href="<?= base_url('Notificacion/form')?>"><i class="fa fa-exclamation-circle"></i> <span>Notificación</span></a></li>
+        <li><a href="<?= base_url('Faq/index')?>"><i class="fa fa-question"></i> <span>FAQ</span></a></li>
+
+      </ul>
+    </section>
+    <!-- /.sidebar -->
+  </aside>
