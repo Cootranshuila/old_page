@@ -1459,7 +1459,7 @@
             // $.fn.snow();
             // $.fn.snow({ minSize: 20, maxSize: 60, newOn: 1000, flakeColor: '#FFFFFF' });
 
-            $("#ModalComunicado_slider").modal();
+            // $("#ModalComunicado_slider").modal();
 
             // $("#ModalComunicado2").modal();
 
