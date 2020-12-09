@@ -63,19 +63,7 @@
 
 <!--============================= MODALES =============================-->
 
-<!-- Modal Mascota -->
-<div class="modal fade" id="ModalComunicado2">
-    <div class="modal-dialog mw-100 w-50" id="classComunicado2">
-      <div class="modal-content">
 
-        <!-- Modal body -->
-        <div class="modal-body">
-          <!-- <img src="assets/images/a_nuevo.png" class="img-fluid" width="100%"> -->
-        </div>
-
-      </div>
-    </div>
-  </div>
 
 <div class="modal fade" id="ModalComunicado">
     <div class="modal-dialog mw-100 w-50" id="classComunicado">
