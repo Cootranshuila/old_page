@@ -70,7 +70,7 @@
 
         <!-- Modal body -->
         <div class="modal-body">
-          <img src="assets/images/a_nuevo.png" class="img-fluid" width="100%">
+          <!-- <img src="assets/images/a_nuevo.png" class="img-fluid" width="100%"> -->
         </div>
 
       </div>
