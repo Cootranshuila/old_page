@@ -32,11 +32,11 @@
 
 
     <!-- SHARE LINK FACEBOOK -->
-    <meta property="og:url"                content="https://cootranshuila.com/" />
-    <meta property="og:type"               content="Web Page" />
-    <meta property="og:title"              content="Cootranshuila LTDA" />
-    <meta property="og:description"        content="Pagina web Oficial de Cootranshuila LTDA. Compra tu tiquete de bus a nivel Nacional" />
-    <meta property="og:image"              content="https://cootranshuila.com/assets/images/icon_page.jpg" />
+    <meta property="og:url"                       content="https://cootranshuila.com/" />
+    <meta property="og:type"                      content="Web Page" />
+    <meta property="og:title"                     content="Cootranshuila LTDA" />
+    <meta property="og:description"               content="Pagina web Oficial de Cootranshuila LTDA. Compra tu tiquete de bus a nivel Nacional" />
+    <meta property="og:image" itemprop="image"    content="https://cootranshuila.com/assets/images/icon_page.jpg" />
 
 </head>
 
