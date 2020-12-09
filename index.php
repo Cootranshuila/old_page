@@ -36,7 +36,7 @@
     <meta property="og:type"               content="Web Page" />
     <meta property="og:title"              content="Cootranshuila LTDA" />
     <meta property="og:description"        content="Pagina web Oficial de Cootranshuila LTDA. Compra tu tiquete de bus a nivel Nacional" />
-    <meta property="og:image"              content="assets/images/logo.png" />
+    <meta property="og:image"              content="https://cootranshuila.com/assets/images/logo.png" />
 
 </head>
 
