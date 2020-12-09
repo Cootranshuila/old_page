@@ -30,6 +30,14 @@
     <!-- Compiled and minified CSS -->
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
 
+
+    <!-- SHARE LINK FACEBOOK -->
+    <meta property="og:url"                content="https://cootranshuila.com/" />
+    <meta property="og:type"               content="Web Page" />
+    <meta property="og:title"              content="Cootranshuila LTDA" />
+    <meta property="og:description"        content="Pagina web Oficial de Cootranshuila LTDA. Compra tu tiquete de bus a nivel Nacional" />
+    <meta property="og:image"              content="assets/images/logo.png" />
+
 </head>
 
 <body id="index">
@@ -610,7 +618,6 @@
                             <div class="col-md-12">
                                 <div class="slider-content_wrap">
                                     <h1 class="text">¡Compra ya tu tiquete!</h1>
-                                    <h6 class="text" style="color:#ffe701;text-shadow: black 0.1em 0.1em 0.2em;font-size: 25px;">Recuerde que es indispensable llenar el formulario de programación de viaje y llevar en físico los documentos que soporten que esta dentro de las excepciones publicadas por el Gobierno Nacional para poder viajar. <b><a href="https://cootranshuila.com/dashboard-design/encuesta_de_satisfaccion/regresoacasa.php" style="color:white;">Clic aquí para ir al formulario</a></b></h6>
                                     <!-- PAGINA EN MANTENIMIENTO -->
                                     <!-- <img src="assets/images/mantenimiento.png" class="img-fluid rounded" alt="Pagina en mantenimiento" style="box-shadow: 0px 0px 5px 2px rgb(166, 170, 182);}"> -->
                                 </div>
