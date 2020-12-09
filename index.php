@@ -42,7 +42,7 @@
 
 <body id="index">
 
-<script type="application/ld+json"> { "@context": "http://schema.org/", "@type": "ImageObject", "url": "https://cootranshuila.com/assets/images/icon_page.jpg", "height": 800, "width": 1200 } </script> 
+<span itemprop="image" itemscope itemtype="http://schema.org/ImageObject"> <link itemprop="url" href="https://cootranshuila.com/assets/images/icon_page.jpg"> <meta itemprop="width" content="1200"> <meta itemprop="height" content="800"> </span> 
 
 <!-- START Bootstrap-Cookie-Alert -->
 <div class="alert text-center cookiealert" role="alert">
