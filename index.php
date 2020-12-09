@@ -37,12 +37,19 @@
     <meta property="og:title"                     content="Cootranshuila LTDA" />
     <meta property="og:description"               content="Pagina web Oficial de Cootranshuila LTDA. Compra tu tiquete de bus a nivel Nacional" />
     <meta property="og:image" itemprop="image"    content="https://cootranshuila.com/assets/images/icon_page.jpg" />
+    
+    <link itemprop="thumbnailUrl" href="https://cootranshuila.com/assets/images/icon_page.jpg"> 
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:updated_time" content="updatedtime">
+    <meta property="og:locale" content="es_ES" />
 
 </head>
 
 <body id="index">
 
-<span itemprop="image" itemscope itemtype="http://schema.org/ImageObject"> <link itemprop="url" href="https://cootranshuila.com/assets/images/icon_page.jpg"> <meta itemprop="width" content="1200"> <meta itemprop="height" content="800"> </span> 
+<span itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject"> 
+  <link itemprop="url" href="https://cootranshuila.com/assets/images/icon_page.jpg"> 
+</span>
 
 <!-- START Bootstrap-Cookie-Alert -->
 <div class="alert text-center cookiealert" role="alert">
