@@ -42,6 +42,8 @@
 
 <body id="index">
 
+<script type="application/ld+json"> { "@context": "http://schema.org/", "@type": "ImageObject", "url": "https://cootranshuila.com/assets/images/icon_page.jpg", "height": 800, "width": 1200 } </script> 
+
 <!-- START Bootstrap-Cookie-Alert -->
 <div class="alert text-center cookiealert" role="alert">
   <p>Usamos cookies y tecnologías parecidas para registrar sus visitas y preferencias con el objetivo de medir la efectividad de las campañas y mejorar nuestros sitios web. Para consultar la configuración de las cookies y obtener más información acerca de ellas, lea nuestra <a href="info.php?politica#cookies" target="_blank">Política de cookies</a>. Al hacer clic en «Acepto» en este banner o al navegar por nuestro sitio, muestra su consentimiento con el uso de cookies.</p>
