@@ -549,7 +549,7 @@ img.logo {
     font-size: 18px;
     padding: 17px;
     width: 27%;
-    background: rgb(0, 162, 81);
+    background: rgb(0, 162, 81) !important;
     cursor: pointer;
     color: #ffffff;
     border: none;

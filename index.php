@@ -661,7 +661,7 @@
                                           </select>
                                           <input data-toggle="tooltip" title="Fecha Ida" name="txtFecSalida" type="date" class=" btn-group3" required="required" />
                                           <input data-toggle="tooltip" title="Fecha Regreso (opcional)" name="txtFecRegreso" type="date" class=" btn-group4" />
-                                          <button type="submit" class="btn-form"><span class="icon-magnifier search-icon"></span>BUSCAR<i class="pe-7s-angle-right"></i></button>
+                                          <button type="button" id="btn_buscar" class="btn-form"><span class="icon-magnifier search-icon"></span>BUSCAR<i class="pe-7s-angle-right"></i></button>
                                       </div>
 
                                       <div class="slider-link">
@@ -1410,6 +1410,8 @@
     <script src="assets/js/bootstrap.min.js"></script>
     <!-- Include cookiealert script -->
     <script src="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.js"></script>
+    <!-- Sweet Alert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
     
@@ -1449,6 +1451,25 @@
 
     <script>
       $(document).ready(function(){
+
+        $('#btn_buscar').click(function (e) {
+          e.preventDefault();
+
+          Swal.fire({
+            title: '¡Información Importante!',
+            html: 'Apreciado Usuario, por protocolos de Bioseguridad, las sillas continuas son <b>única y exclusivamente</b> para personas del <b>mismo núcleo familiar.</b>',
+            icon: 'warning',
+            confirmButtonText: 'Aceptar',
+            customClass: {
+              confirmButton: 'btn-form'
+            }
+          }).then((result) => {
+            if (result.value) {
+              $('#compra_tiquetes').submit();
+            }
+          });
+          
+        });
 
           $('#btn-turismo').mouseover(function(){
             setTimeout(function() { $('#btn-turismo').removeClass('btn-turismo-hide') },150);
