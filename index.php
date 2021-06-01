@@ -568,7 +568,6 @@
                                         <a class="nav-link nav-link1" href="#" id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Servicios<span class="icon-arrow-down"></span> </a>
                                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                             <!-- <a class="dropdown-item" href="https://cootranshuila.teletiquete.com/">Tiquetes online</a> -->
-                                            
                                             <a class="dropdown-item" href="info.php?especial">Servicio Especial</a>
                                             <a class="dropdown-item" href="#" id="estacionN">Estacion de servicios</a>
                                             <a class="dropdown-item" href="#" id="encomiendasN">Carga y encomiendas</a>
@@ -584,8 +583,8 @@
                                             <a class="dropdown-item" href="https://www.cootranshuila.com/INCOYS/">Incoys</a>
                                             <a class="dropdown-item" href="http://prod.ticketsoft.com.co/">TicketSOFT</a>
                                             <!-- <a class="dropdown-item" href="https://erpcootranshuila.sitransas.com.co/inicio">Silog Sitrans</a> -->
-                                            <a class="dropdown-item" href="http://huil.fics.sisorgcloud.com/default.aspx" id="new_fics" target="_blank">FICS</a>
-                                            <a class="dropdown-item" href="http://huil.pxp.sisorgcloud.com" id="new_pxp" target="_blank">PXP</a>
+                                            <a class="dropdown-item" href="http://huil.fics.sisorgcloud.com/default.aspx" id="new_fics" target="_blank">FICS Tiquetes</a>
+                                            <a class="dropdown-item" href="http://huil.pxp.sisorgcloud.com" id="new_pxp" target="_blank">PXP Encomiendas</a>
                                             <a class="dropdown-item" href="https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ltmpl=default&hd=cootranshuila.com&service=mail&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin">Correo corporativo</a>
                                             <!-- <a class="dropdown-item" href="reporte_fallas/Index.php">Reportes y operativos</a> -->
                                             <a class="dropdown-item" href="dashboard-design/login.php">Administrador</a>
