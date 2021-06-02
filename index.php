@@ -583,8 +583,8 @@
                                             <a class="dropdown-item" href="https://www.cootranshuila.com/INCOYS/">Incoys</a>
                                             <a class="dropdown-item" href="http://prod.ticketsoft.com.co/">TicketSOFT</a>
                                             <!-- <a class="dropdown-item" href="https://erpcootranshuila.sitransas.com.co/inicio">Silog Sitrans</a> -->
-                                            <a class="dropdown-item" href="http://huil.fics.sisorgcloud.com/default.aspx" id="new_fics" target="_blank">FICS Tiquetes</a>
-                                            <a class="dropdown-item" href="http://huil.pxp.sisorgcloud.com" id="new_pxp" target="_blank">PXP Encomiendas</a>
+                                            <a class="dropdown-item" href="javascript:void(0)" id="new_fics" target="_blank">FICS Tiquetes</a>
+                                            <a class="dropdown-item" href="javascript:void(0)" id="new_pxp" target="_blank">PXP Encomiendas</a>
                                             <a class="dropdown-item" href="https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ltmpl=default&hd=cootranshuila.com&service=mail&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin">Correo corporativo</a>
                                             <!-- <a class="dropdown-item" href="reporte_fallas/Index.php">Reportes y operativos</a> -->
                                             <a class="dropdown-item" href="dashboard-design/login.php">Administrador</a>
@@ -1688,11 +1688,40 @@
     </script>
 
     <script>
-      $('#new_fics').click(function(){
-        alert('Recuerde ingresar desde Internet Explorer!');
+      $('#new_fics').click(function(e){
+        // alert('Recuerde ingresar desde Internet Explorer!');
+        e.preventDefault();
+          Swal.fire({
+            title: '¡Información Importante!',
+            html: 'Recuerde ingresar desde <b> Internet Explorer! </b>',
+            icon: 'warning',
+            confirmButtonText: 'Aceptar',
+            customClass: {
+              confirmButton: 'btn-form'
+            }
+          }).then((result) => {
+            if (result.value) {
+              window.location.href = 'http://huil.fics.sisorgcloud.com/default.aspx';
+            }
+          });
       });
-      $('#new_pxp').click(function(){
-        alert('Recuerde ingresar desde Internet Explorer!');
+      
+      $('#new_pxp').click(function(e){
+        // alert('Recuerde ingresar desde Internet Explorer!');
+        e.preventDefault();
+          Swal.fire({
+            title: '¡Información Importante!',
+            html: 'Recuerde ingresar desde <b> Internet Explorer! </b>',
+            icon: 'warning',
+            confirmButtonText: 'Aceptar',
+            customClass: {
+              confirmButton: 'btn-form'
+            }
+          }).then((result) => {
+            if (result.value) {
+              window.location.href = 'http://huil.pxp.sisorgcloud.com/default.aspx';
+            }
+          });
       });
     </script>
     
